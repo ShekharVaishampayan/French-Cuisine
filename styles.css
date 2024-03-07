@@ -1,0 +1,76 @@
+body {
+    background: linear-gradient(to right, #232323 0%, #303030 100%);
+    font-family: monospace;
+}
+h1 {
+    color: white;
+    font-size: 54px;
+    display: inline;
+}
+p.section_header {
+    font-size: 36px;
+    color: lightGray;
+}
+p.head {
+    color: darkGray;
+    font-size: 24px;
+    display: inline;
+    margin-left: 0px;
+}
+p.price {
+    color: darkGray;
+    font-size: 24px;
+    display: inline;
+    margin-left: 25px;
+}
+p.vegetarian {
+    color: black;
+    background-color: #c85600;
+    padding: 7px 5px;
+    border-radius: 15px;
+    margin-top: 10px;
+    display: inline-block;
+    font-size: 12px;
+    margin-left: 30px;
+}
+p.alcohol {
+    color: black;
+    background-color: #34a2ff;
+    padding: 7px 5px;
+    border-radius: 15px;
+    margin-top: 20px;
+    display: inline-block;
+    margin-left: 30px;
+    font-size: 12px;
+}
+div.item {
+    margin-left: 30px;
+}
+div.section {
+    display: inline-block;
+    width: 48%;
+}
+img {
+    width: 200px;
+    display: inline;
+}
+div.logo {
+    margin-left: 20px;
+    margin-top: 30px;
+}
+
+@media only screen and (max-width: 768px) {
+    div.section {
+        width: 100%;
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 350px) {
+    p.head {
+        font-size: 16px;
+    }
+    p.price {
+        font-size: 16px;
+    }
+}
